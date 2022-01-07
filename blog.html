@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        background: #4a465b;
+    }
+
+    .contenedor {
+        width: 1000px;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    header {
+        background: white;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 100%;
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    header nav ul li {
+        float: right;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 20px;
+        color: black;
+    }
+
+    header nav ul li a:hover {
+        background: black;
+        color: white;
+    }
+
+    .main {
+        background: white;
+        width: 700px;
+        float: left;
+    }
+
+    .main .imagen {
+        width: 1005;
+    }
+
+    .main .imagen img {
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .main .posts {
+        padding: 40px;
+    }
+
+    .main .posts article h2 {
+        margin-bottom: 20px;
+        color: #424242;
+    }
+
+    .main .posts article h2 p {
+        margin-bottom: 15px;
+        line-height: 27px;
+    }
+
+    aside {
+        width: 300px;
+        background: #161f26;
+        padding: 15px;
+        color: #fff;
+        float: left;
+    }
+
+    aside .widget {
+        margin-bottom: 20px;
+    }
+
+    aside .widget .titulo {
+        color: #ff8000;
+        border-bottom: 1px solid #ff8000;
+        margin-bottom: 10px;
+    }
+
+    aside .widget ul {
+        list-style: none;
+    }
+
+    aside .widget ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 0px;
+    }
+
+    aside .widget ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    aside .widget ul li a:hover {
+        color: #8f8f8f;
+    }
+
+    aside .widget p {
+        line-height: 27px;
+    }
+
+    footer {
+        overflow: hidden;
+        width: 700px;
+        background: #000;
+        color: #fff;
+        padding: 15px 0px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="contenedor">
+
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Acerca de</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="main">
+            <div class="imagen">
+                <img src="http://placekitten.com/700/700" alt="">
+            </div>
+            <section class="posts">
+                <article>
+                    <h2>Titulo del Articulo</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quo modi, et assumenda
+                        beatae eaque ullam quia excepturi! Id magni dolores ullam earum architecto debitis recusandae
+                        iste, saepe qui velit?</p>
+                    <br><br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quo modi, et assumenda
+                        beatae eaque ullam quia excepturi! Id magni dolores ullam earum architecto debitis recusandae
+                        iste, saepe qui velit?</p>
+                </article>
+            </section>
+        </section>
+
+        <aside>
+            <div class="widget">
+                <h3 class="titulo">Articulos relacionados</h3>
+                <ul>
+                    <li><a href="#">Articulos relevantes del mas alla jajaj</a></li>
+                    <li><a href="#">Articulos relevantes del mas alla jajaj</a></li>
+                    <li><a href="#">Articulos relevantes del mas alla jajaj</a></li>
+                    <li><a href="#">Articulos relevantes del mas alla jajaj</a></li>
+                    <li><a href="#">Articulos relevantes del mas alla jajaj</a></li>
+                </ul>
+
+            </div>
+
+            <div class="widget">
+                <h3 class="titulo">Articulos relacionados</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, nemo sapiente amet possimus repellat
+                    nulla error veritatis hic, tempora ipsam aperiam at unde odio inventore minima et repellendus, eos
+                    suscipit!</p>
+            </div>
+        </aside>
+
+        <footer>
+            <p>Bps 2021 Anonimus - Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+
+</html>
